@@ -1,0 +1,17 @@
+{
+  "name": "sub3",
+  "version": "1.0.0",
+  "description": "sub3",
+  "main": "app.js",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "web-push": "^3.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "orlandosykes",
+  "license": "ISC"
+}

@@ -1,0 +1,60 @@
+#beranda{
+    width: 100%;
+}
+body {
+    background-color: rgb(227, 234, 255);
+}
+img.jumbotron{
+    filter: contrast(40%);
+}
+.preloader {
+    position:fixed;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+}
+.tulisan{
+    color: white;
+    position: absolute;
+    z-index: 998;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 15%;
+    text-align: center;
+    width: 60%;
+}
+#save-button{
+    width: 30px;
+    padding: 0;
+}
+li > div.img-nav{
+    display: none;
+}
+
+@media screen and (max-width : 992px){
+    li > div.img-nav{
+        display: inline;
+        z-index: 999;
+    }
+    li > div.img-nav > img{
+        margin-bottom: 16px;
+        width: 100%;
+    }
+}
+@media screen and (max-width : 576px){
+    .tulisan{
+        width: 70%;
+        margin: auto;
+        top : 5%;
+    }
+}
+
+@media screen and (max-width : 450px){
+    .tulisan > h3{
+        font-size: 35px;
+    }
+    #schedule-header, #schedule-list{
+        font-size: 12px;
+    }
+}
